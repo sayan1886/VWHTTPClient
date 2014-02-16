@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177EA6BA18B0AD3D00B0730B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177EA6B918B0AD3D00B0730B /* Foundation.framework */; };
+		177EA6BF18B0AD3D00B0730B /* VWHTTPClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 177EA6BE18B0AD3D00B0730B /* VWHTTPClient.h */; };
+		177EA6C118B0AD3D00B0730B /* VWHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 177EA6C018B0AD3D00B0730B /* VWHTTPClient.m */; };
+		177EA6C818B0AD3D00B0730B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177EA6C718B0AD3D00B0730B /* XCTest.framework */; };
+		177EA6C918B0AD3D00B0730B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177EA6B918B0AD3D00B0730B /* Foundation.framework */; };
+		177EA6CB18B0AD3D00B0730B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177EA6CA18B0AD3D00B0730B /* UIKit.framework */; };
+		177EA6CE18B0AD3D00B0730B /* libVWHTTPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 177EA6B618B0AD3D00B0730B /* libVWHTTPClient.a */; };
+		177EA6D418B0AD3D00B0730B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 177EA6D218B0AD3D00B0730B /* InfoPlist.strings */; };
+		177EA6D618B0AD3D00B0730B /* VWHTTPClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 177EA6D518B0AD3D00B0730B /* VWHTTPClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		177EA6CC18B0AD3D00B0730B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 177EA6AE18B0AD3D00B0730B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 177EA6B518B0AD3D00B0730B;
+			remoteInfo = VWHTTPClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		177EA6B418B0AD3D00B0730B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				177EA6BF18B0AD3D00B0730B /* VWHTTPClient.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		177EA6B618B0AD3D00B0730B /* libVWHTTPClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVWHTTPClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		177EA6B918B0AD3D00B0730B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		177EA6BD18B0AD3D00B0730B /* VWHTTPClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VWHTTPClient-Prefix.pch"; sourceTree = "<group>"; };
+		177EA6BE18B0AD3D00B0730B /* VWHTTPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VWHTTPClient.h; sourceTree = "<group>"; };
+		177EA6C018B0AD3D00B0730B /* VWHTTPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWHTTPClient.m; sourceTree = "<group>"; };
+		177EA6C618B0AD3D00B0730B /* VWHTTPClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VWHTTPClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		177EA6C718B0AD3D00B0730B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		177EA6CA18B0AD3D00B0730B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		177EA6D118B0AD3D00B0730B /* VWHTTPClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VWHTTPClientTests-Info.plist"; sourceTree = "<group>"; };
+		177EA6D318B0AD3D00B0730B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		177EA6D518B0AD3D00B0730B /* VWHTTPClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VWHTTPClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177EA6B318B0AD3D00B0730B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177EA6BA18B0AD3D00B0730B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177EA6C318B0AD3D00B0730B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177EA6C818B0AD3D00B0730B /* XCTest.framework in Frameworks */,
+				177EA6CB18B0AD3D00B0730B /* UIKit.framework in Frameworks */,
+				177EA6C918B0AD3D00B0730B /* Foundation.framework in Frameworks */,
+				177EA6CE18B0AD3D00B0730B /* libVWHTTPClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177EA6AD18B0AD3D00B0730B = {
+			isa = PBXGroup;
+			children = (
+				177EA6BB18B0AD3D00B0730B /* VWHTTPClient */,
+				177EA6CF18B0AD3D00B0730B /* VWHTTPClientTests */,
+				177EA6B818B0AD3D00B0730B /* Frameworks */,
+				177EA6B718B0AD3D00B0730B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177EA6B718B0AD3D00B0730B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177EA6B618B0AD3D00B0730B /* libVWHTTPClient.a */,
+				177EA6C618B0AD3D00B0730B /* VWHTTPClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177EA6B818B0AD3D00B0730B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				177EA6B918B0AD3D00B0730B /* Foundation.framework */,
+				177EA6C718B0AD3D00B0730B /* XCTest.framework */,
+				177EA6CA18B0AD3D00B0730B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		177EA6BB18B0AD3D00B0730B /* VWHTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				177EA6BE18B0AD3D00B0730B /* VWHTTPClient.h */,
+				177EA6C018B0AD3D00B0730B /* VWHTTPClient.m */,
+				177EA6BC18B0AD3D00B0730B /* Supporting Files */,
+			);
+			path = VWHTTPClient;
+			sourceTree = "<group>";
+		};
+		177EA6BC18B0AD3D00B0730B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177EA6BD18B0AD3D00B0730B /* VWHTTPClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		177EA6CF18B0AD3D00B0730B /* VWHTTPClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				177EA6D518B0AD3D00B0730B /* VWHTTPClientTests.m */,
+				177EA6D018B0AD3D00B0730B /* Supporting Files */,
+			);
+			path = VWHTTPClientTests;
+			sourceTree = "<group>";
+		};
+		177EA6D018B0AD3D00B0730B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177EA6D118B0AD3D00B0730B /* VWHTTPClientTests-Info.plist */,
+				177EA6D218B0AD3D00B0730B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177EA6B518B0AD3D00B0730B /* VWHTTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177EA6D918B0AD3D00B0730B /* Build configuration list for PBXNativeTarget "VWHTTPClient" */;
+			buildPhases = (
+				177EA6B218B0AD3D00B0730B /* Sources */,
+				177EA6B318B0AD3D00B0730B /* Frameworks */,
+				177EA6B418B0AD3D00B0730B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VWHTTPClient;
+			productName = VWHTTPClient;
+			productReference = 177EA6B618B0AD3D00B0730B /* libVWHTTPClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		177EA6C518B0AD3D00B0730B /* VWHTTPClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177EA6DC18B0AD3D00B0730B /* Build configuration list for PBXNativeTarget "VWHTTPClientTests" */;
+			buildPhases = (
+				177EA6C218B0AD3D00B0730B /* Sources */,
+				177EA6C318B0AD3D00B0730B /* Frameworks */,
+				177EA6C418B0AD3D00B0730B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				177EA6CD18B0AD3D00B0730B /* PBXTargetDependency */,
+			);
+			name = VWHTTPClientTests;
+			productName = VWHTTPClientTests;
+			productReference = 177EA6C618B0AD3D00B0730B /* VWHTTPClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177EA6AE18B0AD3D00B0730B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "VaporWare Solutions";
+			};
+			buildConfigurationList = 177EA6B118B0AD3D00B0730B /* Build configuration list for PBXProject "VWHTTPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 177EA6AD18B0AD3D00B0730B;
+			productRefGroup = 177EA6B718B0AD3D00B0730B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177EA6B518B0AD3D00B0730B /* VWHTTPClient */,
+				177EA6C518B0AD3D00B0730B /* VWHTTPClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177EA6C418B0AD3D00B0730B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177EA6D418B0AD3D00B0730B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177EA6B218B0AD3D00B0730B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177EA6C118B0AD3D00B0730B /* VWHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		177EA6C218B0AD3D00B0730B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177EA6D618B0AD3D00B0730B /* VWHTTPClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		177EA6CD18B0AD3D00B0730B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 177EA6B518B0AD3D00B0730B /* VWHTTPClient */;
+			targetProxy = 177EA6CC18B0AD3D00B0730B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		177EA6D218B0AD3D00B0730B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177EA6D318B0AD3D00B0730B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177EA6D718B0AD3D00B0730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		177EA6D818B0AD3D00B0730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177EA6DA18B0AD3D00B0730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VWHTTPClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VWHTTPClient/VWHTTPClient-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		177EA6DB18B0AD3D00B0730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/VWHTTPClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VWHTTPClient/VWHTTPClient-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		177EA6DD18B0AD3D00B0730B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VWHTTPClient/VWHTTPClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VWHTTPClientTests/VWHTTPClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		177EA6DE18B0AD3D00B0730B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VWHTTPClient/VWHTTPClient-Prefix.pch";
+				INFOPLIST_FILE = "VWHTTPClientTests/VWHTTPClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177EA6B118B0AD3D00B0730B /* Build configuration list for PBXProject "VWHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177EA6D718B0AD3D00B0730B /* Debug */,
+				177EA6D818B0AD3D00B0730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177EA6D918B0AD3D00B0730B /* Build configuration list for PBXNativeTarget "VWHTTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177EA6DA18B0AD3D00B0730B /* Debug */,
+				177EA6DB18B0AD3D00B0730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		177EA6DC18B0AD3D00B0730B /* Build configuration list for PBXNativeTarget "VWHTTPClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177EA6DD18B0AD3D00B0730B /* Debug */,
+				177EA6DE18B0AD3D00B0730B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177EA6AE18B0AD3D00B0730B /* Project object */;
+}
